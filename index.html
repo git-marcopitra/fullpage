@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
     <title>FullPage</title>
 </head>
 <body>
-    <section id="page1" class="fullpage" style="background-color: rgb(255,100,100);">
-        <h1>FULL PAGE 1</h1>
+    <section id="fp" class="fb">
+        <section id="page1" class="fullpage" style="background-color: rgb(255,100,100);">
+            <h1>FULL PAGE 1</h1>
+        </section>
+        <section id="page2" class="fullpage" style="background-color: rgb(100,255,100);"> 
+            <h1> FULL PAGE 2 </h1>
+        </section>
+        <section id="page3" class="fullpage" style="background-color: rgb(100,100,255);">
+            <h1> FULL PAGE 3 </h1>
+        </section>
+        <div class="menu">
+            <a class="menu-item" href="#page1"> </a>
+            <a class="menu-item" href="#page2"> </a>
+            <a class="menu-item" href="#page3"> </a>
+        </div>
     </section>
-    <section id="page2" class="fullpage" style="background-color: rgb(100,255,100);"> 
-        <h1> FULL PAGE 2 </h1>
-    </section>
-    <section id="page3" class="fullpage" style="background-color: rgb(100,100,255);">
-        <h1> FULL PAGE 3 </h1>
-    </section>
-    <div class="menu">
-        <a class="menu-item" href="#page1"> </a>
-        <a class="menu-item" href="#page2"> </a>
-        <a class="menu-item" href="#page3"> </a>
-    </div>
 </body>
 </html>
