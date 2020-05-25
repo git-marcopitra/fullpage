@@ -11,7 +11,6 @@ window.onwheel = async (event) => {
     this.scrollTo(0,pastScroll);
     if(control){
         control = false;
-        console.log("Scrolling ...");
         if(event.deltaY > 0) 
             pastScroll = pastScroll + window.innerHeight ;
         else 
