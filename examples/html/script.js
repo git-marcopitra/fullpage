@@ -38,7 +38,6 @@ window.onwheel = async (event) => {
     clearTimeout(timeout);
     timeout = setTimeout(() => {
         scrollable = true;
-        resetScroll();
         this.scrollTo(0, window.innerHeight * scrollIndex);
     }, 50);
 }
